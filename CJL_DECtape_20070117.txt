@@ -1,0 +1,696 @@
+
+Newsgroups: alt.sys.pdp8
+Subject: TU55/TU56 issues; aren't you glad you asked?  [Note: Extremely Long!]
+Date: 17 Jan 2007 04:02:23 -0800
+From: CJL
+
+Upgrading TU55 and TU56 guides the CORRECT way [and fixing all of the sins of
+the past in the process] and some allied DECtape/LINCtape topics.
+
+Foreward: As per the pestering of certain individuals [you all know who you
+are!], I have once again been persuaded to give a complete treatise on a
+well-focused topic.  In this case, this is everything you [never] wanted to know
+about DECtape hardware as it related to the drives. Only minimal mention of the
+controllers prevailing will be issued. [CONTROLLER hardware discussions probably
+need two or three other writings; SOFTWARE discussions about DECtape and
+LINCtape are best left to at least three other writings, perhaps four, or even
+six.]
+
+There are no hard numbers in this document, just the concepts that have to be
+dealt with and some relevant examples.
+
+All TU55 and TU56 guides are essentially the same except for some detailed
+dimensions that would make them not truly interchangeable. [Actually, this could
+be untrue!  They might be interchangeable, but that really isn't important; they
+are FUNCTIONALLY interchangeable and suffer from the same problems and have the
+same solutions.]
+
+The express purpose of the guides is to "guide" the DEC/LINCtape over the area
+the tape must be guided.  In the center is the region where the head is beneath
+the tape.  In point of fact the tape NEVER [normally!] touches the head in the
+manner superficiously the design suggests.  This is because the moving tape
+causes an "air bearing" to form beneath it, thus little or no pressure exists
+causing the tape to press down on the head [which would inevitably sandpaper
+away the head; this has happened to improperly maintained drives!]
+
+Thus, a well adjusted drive and guides should theoretically never wear out the
+tape or the heads and this is likely the closest to "forever" tape media we can
+hope to get.  [Please note that there are actual tapes written on 1962-era LINC
+machines that still exist and read fine!]
+
+Unfortunately, this perfection more or less only applies to the original LINC
+and LINC-8 drives!  These earlier drives are low-performance and thus slightly
+higher reliability, depending largely on careful machining of a lot of aluminum
+surfaces that aren't stressed to the point that not-so-obvious second-order
+problems surface, such as in the TU55 and TU56.  [Nominally, DECtape transfers
+every 133 microseconds while LINC/LINC-8 drives transfer every 160 microseconds,
+thus the motors are that much slower and gentler on the tape and the long
+all-aluminum guides.]
+
+Once we start discussing TU55 and TU56, the whole ballgame changes. Due to using
+much "beefier" motors in these drives [arguably especially in the case of the
+TU56], DEC wisely chose to make some second-order corrections to the design.
+
+Unfortunately, it was a quite bumpy ride from their original notion to somethat
+that actually worked!  Because DECtape is such an inherently reliable device, it
+wasn't noticed right away just how wrong things were as they wore out as a
+natural consequence of the inadequate design.
+
+Not knowing where to start, I'll just pick an obvious starting point: The front
+wear plate.  Once you start stressing the tape, you need to have a device to
+push the tape towards the rear lest it tend to wander towards and away from the
+front leading to misalignment in the same sense as a diskette drive isn't
+running right if not having the media in the correct place over the heads.
+
+Thus, the front guide plate is merely a cover placed well away from the tape and
+never directly participates in this pushing process.  Instead, it houses a
+free-moving roughly rectangular wear plate.  [Note:  Since the shape of the
+guides is actually a critically-designed arc to make the air-bearing effect,
+cosmetically the front plate matches the same curve.  To minimize the cosmetic
+effect of the wear plate being notices, most of the wear plate isn't visible
+from the front, just the little peak of it sticking up higher than the guide
+front.  However, it just has a trapezoidal cut, not a curve, to vaguely follow
+the overall curve in effect, etc.]
+
+Behind the wear plate is a stiff spring [later deemed WAY too stiff and mounted
+in the wrong place!] that does the pushing toward the rear. Its appearance and
+overall stiffness is vaguely reminiscent of classic ball-point pen springs from
+the same era.  What it is NOT is a much larger and floppier spring made of much
+finer wire, which is a fair description of the replacement spring that is much,
+much less forceful, etc.
+
+Thus, the problem is that this spring and wear plate combination tend to
+over-push the tape towards the rear resulting in all sorts of long-term
+problems, such as creating a score line in the rear cheek plate due to the tape
+always being way-too-much pushed against it. Inevitablly this scratches the
+surface of the rear cheek plate making it a tape killer, as the tape sometimes
+is cutting the score deeper, and at other times the tape is getting caught in
+the already unwelcome and getting worse score line in the plate, etc.
+
+The net effect on the tape media itself is pretty devastating:  The tape tends
+to become thinner, meaning literally the tape is less wide than when it was
+manufactured.  Clearly, most tape designs aren't considering that the media
+would get less wide than nominal which inevitably leads to various reliability
+problems, etc.
+
+If the tape were merely damaged only in that regard, this would be correctable,
+as is the case in a drive fully updated.  Unfortunately, another more serious
+effect occurs where the tape tends to take on a "fluted" appearance, i.e., it
+literally will not lie flat.  These tapes are essentially fatally damaged, since
+in a properly adjusted drive, there simply isn't enough force available to make
+the tape even temporarily flatten out while passing over the head sufficiently
+for normal read/write operations.  The root cause is these are mylar tapes and
+indeed have been overstretched and will not ever come back, albeit in a strange
+"direction" of the distortion, etc.
+
+Please note:  Properly maintained systems did and should continue to ban the use
+of these permanently damaged tapes.  Since good tapes are so hard to get, we
+really have to spread the word on preventing further loss of the already scarce
+resource of good-condition used tape media.
+
+The way DEC eventually handled the thinner tape issue was to change the amount
+of travel on the front wear plate, so that it could still maintain effective
+contact with the tape as it pushed the media even further towards the rear
+plate.  Thus, the range of acceptable tape widths was raised to a much wider
+range than could have been anticipated in the original design. [Note: Thinner
+tapes cannot work on LINC/LINC-8 drives because the guides have no pusher
+element.  The guide is simply a fixed aluminum channel that has to have proper
+width tapes; nothing exists to compensate for tapes of insufficient width; it
+simply wasn't in the design because those original drives never contributed to
+the problem!  Thus, too-thin tapes can easily wander on the older drives and
+will be unreliable there, etc.]
+
+To implement this change, depending on the cover design itself, invariably the
+fix is to remove the guides from the drive and mill out some number of
+additional thousandths of an inch in the guide in specifically the area where
+the wear plate travels.  Thus, the new spec for the wear plate allows tapes to
+be that number of additional thousandths of an inch less-wide than nominal, etc.
+
+We need people capable of milling the hard steel that most guides are made from.
+However, some early TU55 guides are actually made of aluminum and presumably can
+be dealt with as well, just with less brute-force effort to accomplish the same
+thing.  [Note:  DEC never implemented a retrofit for the non-steel guides; the
+orders were to upgrade to the newly dimensioned guides for all TU55 and TU56
+drives and toss the old ones.  Embarassingly enough, some of the new guides have
+"ugly spots" in that whatever vendor it was, had no pride in their workmanship; 
+the areas normally hidden by the front plates shows gross voids in the metal,
+which really doesn't give one much confidence in the workmanship, but usually,
+these guides are well within the new spec, etc.  In any case, there doesn't seem
+to be any reason to change the material as long as the milling work can be
+accomplished on these earlier aluminum guides which are dimensionally identical
+where it matters.]
+
+A side issue, valid for the vast majority of guide designs as well as some of
+the older ones [especially on TU55] has to do with the exact implementation of
+the channel that is affected.  In some guides, the front cover plate is flat on
+the back and is not a participant in the milling process that needs to be
+applied.  However, in other versions, the slot is also partially implemented in
+the cover itself, thus additional milling is apparently needed to make these
+parts viable as well.  Especially in the case of the early production TU55
+drives, some of the guides are designed with different "amounts" of the front
+cover parcelled out between the guide and the cover plate.  Regardless of how
+implemented, the set covers a compatible original wear plate travel area, and
+the modifications would consist of milling out the same amount of material in
+any such case.  [Note:  DEC always recommended using only the newest parts to
+the newest spec, but this is because DEC field service needed replaceable parts
+and was not a machine shop! Experts today can clearly make any of these work
+equivalently, etc.]
+
+Even what the cover is made from isn't a constant, as some seem to be made from
+a common part-aluminum [part zinc and I don't know what else!] alloy that is
+often identified by some three-number industry code.  [Note:  I think it means
+something akin to the vague specification for "carburetor metal" meaning that it
+must conform to some percentage range of two or three metals with a really wide
+slop factor being quite acceptable, etc.]  Some of them are clearly made of some
+not-so-hard steel that may even tend to rust.  At the least, any cosmetic
+repaint job would have to be adjusted according to the material, etc.  [Perhaps
+the steel ones get black-ox'd and the aluminum-based ones get black anodized? 
+Or some form of epoxy-based paint?  I am not a metallurgist or paint expert!]
+
+In any case, once the collection of guide and front plate has been milled out
+correctly, this allows the front wear plate travel to the newest DEC spec for
+acceptable, albeit width-deprived, tape media that can still flatten out and be
+usable [as opposed to the heavily "fluted" tape that cannot].
+
+This solves one of the problems.  Now to that spring:
+
+The spring that pushes the wear plate is just way too gross and ill-thought
+through.  However, if you merely change it to a floppier design, you don't get a
+viable solution, likely instead a disimprovement!
+
+The change involved drilling a small flat-bottom hole in the front cover's
+backside.  This repositions the application point of the spring which likely
+affects the spring's overall balance, performance and range.  The diameter of
+the hole and spring are as consistent as the original ones were to each other,
+but this is a far larger diameter spring base and you get a smoother, more
+linear spring motion which has to be viable over the now longer travel range to
+handle while adequately pushing the wear plate through all of its now wider
+range of linear motion.  [I suspect the application point of the original spring
+wasn't centered well enough, thus for certain positions, especially the new one
+that an extremely width-deprived tape demands, would tend to provide subtle
+forces that would tend to make the force not be applied equally across the
+entire wear plate.  Remember, this is a SET of changes that interact AND change
+the overall design spec to handle a range of conditions that didn't exist in the
+original spec of the drives!  And an additional pitfall - All of the changes
+must be implemented as a set; picking and choosing likely can have negative
+consequences!]
+
+While this change clearly is designed for use with the last version of the guide
+and front cover combination, there basically isn't much change if applying to
+older guide material; the same relative positioning and depth of the new spring
+hole would still have to be created using a flat-bottom-hole-creating drill bit
+or equivalent.
+
+There is no need to fill in the original small spring hole; it can be totally
+ignored.  I am not even sure if there ever were production parts that had only
+the new-purpose hole!
+
+At this point, we are almost done.  The rest of the problem has to do with the
+condition of the rear cheek plate in the area that can or has already developed
+a bad score line, the destroyer of tapes that makes them fluted, etc.
+
+There sometimes is an easy solution or band-aid, but in other cases only a more
+radical approach can solve it.
+
+Starting with the DEC recommendation first:
+
+The standard later-production TU56 part consists of a single part, namely a rear
+cheek plate that is made double-sided and can be used on either side of the
+guide.  Obviously there is no designated front here; one face is used when
+applying on the left front, and flip it for use on the right front, etc.
+
+IF AND ONLY IF the plates have NEVER been used for any position other than as
+factory mounted, this implies that the "backs" of the plates as a pair are
+virgin.  As such, the plates can be flipped to provide new surfaces without a
+score line.
+
+Unfortunately, if the drives have seen much "service" [including and especially
+Field Service], they may have already been flipped, and possibly multiple times
+at that.  [It seems that some field service personnel believed that this was
+analogous to rotation of tires, even though there is no purpose served in
+attempting to use already-worn surfaces.  Perhaps it was a matter of a spiraling
+down situation, where each reassembly merely gained partial ground back, albeit
+inferior at each iteration, etc.]
+
+Because all of the other modifications discussed here are MANDATORY, a change to
+a virgin surface should give long service life from here forward.
+
+Unfortunately, this is a hindsight argument compared to all of the drives that
+were in use in various stages of bad maintenance inevitably leading to all of
+the cumulative problems that make the drive unreliable and/or a tape killer,
+etc.
+
+In early production TU56 and virtually all TU55 with original parts, the rear
+cheek plate parts are NOT interchangeable as used.  [Of course this didn't stop
+some dimwitted field service people not fully paying attention to try to do the
+impossible!]
+
+Non-flippable plates are easily identified: The edge on a two-sided plate tapers
+to a thinner thickness at the edge in a small effort to taper off the force
+applied to the tape - on both sides. Single-sided plates have the back side
+merely flat, no taper at all.
+
+Both plate tapes are upgradeable.  The original can be ground down on the back
+side to match the dimensions of the two-sided.  This involves grinding a
+straight run near the edge of the aluminum plate at a slight angle.  It's fairly
+obvious if you examine a two-sided plate to obtain the correct tapered effect.
+
+At this point, all parts are either now "natural" or modified to be elegible for
+two-sided service.  The only remaining problem is reconditioning the plate to
+eliminate the score line.  [Note: An advantage of the single-sided rear cheek
+plate is that clearly field service should have never used it flipped over,
+other than for the aforementioned dimwits that, thankfully, were rare!  Thus,
+these now-useful "back" sides have no score line at all, and this step is
+essentially cosmetic.]
+
+All surfaces front and back now need to be heavily polished totally smooth.  The
+result is now a naked-metal bright-finish "raw" aluminum part differing from the
+original double-sided part in an irrelevant way - the total thickness of the
+plate is slightly less for having worn off all of the original surface perhaps a
+few thousandths of an inch.  This is unimportant, as the only consequence is
+that the total depth of the drive overall is now a few thousandths less; all of
+the relevant parts move toward the rear of the drive as a set, thus no other
+consequences, not even picky ones!
+
+The rest involves finishing the parts.  I am not clear just how the parts are
+finished, but I suspect it involves something either anodize or some form of
+epoxy paint.  It's also possible that two differing processes were used in
+various production phases.  I doubt that any one process is superior to the
+other because the score factor has been reduced over an order of magnitude as
+compared to prior-to-final-spec drives, etc.
+
+At this point, you can reassemble the rear cheek plates and guides knowing you
+have no score line to deal with; tapes will not become fluted and ruined, etc.
+
+If you either had double-sided or opted to upgrade old single-sided to
+double-sided, you also can rest assured that you also have a "plan B" should the
+finish wear out, but this isn't really likely; these DEC-proscribed
+modifications and the retrofits I mention should make an eventual flip
+unnecessary, etc.  [But remember, in historical practice, they were
+re-assembled, but the other mods were never performed in many instances, thus
+scoring inevitably killed the front-most surface of the rear cheek plates, so
+inadequate was to merely change the rear cheek plates.  Pathetically, this was
+often the case where conventional wisdom applied instead of knowledge!]
+
+A side note on guide assembly and reassembly.  Generally the guides of TU55 and
+TU56 are held on with a pair of pins each, as well as with cap-socket screws to
+make sure they don't fall out.  [Note:  Should a drive appear that does not seem
+to have rear holes on the backside of the chassis front plate, holes should be
+drilled, and the guides should be drilled and tapped to provide these holes to
+conform to the overall spec.]
+
+Early construction involves the use of what are I believed called either roll
+pins or split pins.  Whichever they are, they are of a cross-section that looks
+like a "C" washer and are springy.  These need to be removed and thrown away!
+
+The replacement is the use of a steel cylindrical rod pin driven into the guide,
+as this form of pin is intended to be easily inserted into the chassis to align
+the guide where it belongs.  This allows easy assembly and disassembly for
+cleaning, inspection and possible repair or upgrade.
+
+If you have one of these early production situation with the split type of pin,
+you're in for a real "treat" removing the guides!  Be prepared to invent all
+sorts of wooden jigs to extricate the guides without breaking anything, as they
+will put up quite a fight until you can get them out.  Once you establish a
+small gap between the guide and the chassis, the rest of the removal process
+gets easier as you can then apply wooden wedges to finish the job.  You will
+likely want to throw the split pins across the room, hoping to aim at the guy
+who designed the drives with this stupid original choice of parts!
+
+In any case, the replacement involves what apparently is a standard mechanical
+part, or at least something easily made from standard steel rod stock, merely
+cut to length and polished, at least on the end that sticks out of the rear of
+the guide and into the drive front chassis plate, etc.
+
+Guides should literally just fall right out of the drive from their own meager
+weight.  This is why the drilled and tapped holes on the rear are mandatory, as
+well as on the chassis to match; they hold the guides in, NOT the springy pins
+that are thousands of percent overkill, etc.
+
+We have come full-circle back to the wear plate, another center of conventional
+wisdom versus knowledge.
+
+What was not well known in field service circles was that there are actually not
+two, but actually THREE versions of the wear plates!
+
+The actual original plates were perfectly fine, but only if used in an otherwise
+modified drive.  Unfortunately, these original plates were only ever INSTALLED
+in a totally UNMODIFIED drive!
+
+These original wear plates are made of a smooth, double-sided soft steel.  It is
+clearly flippable, analogous to flipping the rear cheek plates, albeit with a
+whole lot less effort.
+
+They were often flipped over, which of course just leads to plates scored on
+both sides, since in these early days, all were ignorant of all of the other
+changes, etc.
+
+Eventually, someone invented a band-aid on the problem that lead eventually to
+disaster - a replacement part made of ceramic.  However, there are two distinct
+generations of this replacement!
+
+The later ones are NOT a problem, and in fact are the designated preferred
+replacement part.  The ceramic clearly can withstand the overload caused by not
+modifying the pusher spring a whole lot better. All of this, in hindsight, is
+irrelevant for a drive with all of the other mods implemented.  It is arguably
+overkill to replace the wear plates with ceramic if all of the other changes are
+made.  Clearly, the later production ceramic is welcome in a drive fully
+modified, etc.
+
+The problem is that there is an EARLIER plate that, while made of the same
+ceramic, is in fact a SINGLE-SIDED plate.  As in the case of the much larger
+rear cheek plate, you can see that the edge leads to a tapered edge, but on the
+other side it is totally flat, and clearly not flippable.
+
+This did not stop MANY field service morons from flipping them anyway, not
+understanding they were erroneously applying a technique valid, but NOT for the
+parts in their hands!  The net result is an instant tape destruction device
+designed to quickly slice to death all tapes mounted on the now-killer drive,
+etc.
+
+Needless to say, all era wear plates will score when no other changes were made,
+an additional consequence of conventional wisdom, which, loosely translated, is
+that it's perfectly OK to be lazy and just implement a SMALL PORTION of the
+regimen, namely whatever is the easiest.  This means most lazy personnel changed
+only the wear plates to ceramic, without a care for whether they were that
+"harder" to order part that somehow was never in stock, or instead the ones that
+were all too plentiful in field service stock, namely the one-sided ones, with
+total disregard for a fron versus a back.  Better people might at least get the
+sides right.  Some would order the two-sided part so that didn't matter.  Some
+even dealt with flipping the rear cheek plates after taking off the guides. 
+Few, if any, ever understood the mods regarding the newly milled guides and
+accompanying springs and replacement covers.  [I suspect because field service
+MANAGERS instructed their guys to deemphasize replacing "expensive" parts like
+the guides, as opposed to "cheap" parts like wear plates, etc.]
+
+The later production, reversible ceramic wear plates are dimensionally identical
+to the original soft steel ones, and clearly a non-scored set is preferred. 
+Again, you have the "plan B" notion that in the future, they could be reversed
+if need be, but due to all of the other mods, this is more likely than not to
+never be the case!
+
+Thus, if you cannot get new replacement parts, at least recondition whatever you
+have.  The soft steel parts can clearly be buffed to a score-free finish,
+presumably on both sides.  Expect that they will have to be eventually turned
+over because this is a softer material. [After all, they do call it a WEAR
+plate, meaning it is the part meant to wear out!]  If you are stuck with the
+single-sided ceramic, perhaps it can be carefully ground smooth again until
+there is no longer a score line.  [And remember to install them with the correct
+sides outward!!!]  The newer ceramic should also respond to the same treatment,
+and of course on both sides, perhaps one side needing more treatment than the
+other depending on the cumulative effect of the sins of the past, etc.]  There
+is unfortunately some evidence that the single-sided ceramic plates do not ever
+work as well as either material double-sided plates.  Perhaps someone can figure
+out how to "grind" the edge of the ceramic to match the double-sided spec, or at
+least so at the edge [leaving them still not really fully double-sided
+usage-capable, etc.]
+
+Once all of this is done, the results are quite dramatic.  A good way to monitor
+the situation is to get a baseline reading on an oscilloscope of looking at the
+raw output of the tape head.  There is a convenient test point for this on the
+G88x manchester reader/writer cards invariably associated with the controller
+side of things.  Well running drives have very smooth tape motion and the signal
+has no jerkiness to it.  Worn out systems have a havoc-ridden signal set that
+taxes the ability of the system to even read tapes formatted correctly on other
+systems.  Tapes formatted on worn drives are extremely unreliable, especially on
+the drives that performed the flakey formatting, etc.
+
+In essence, all of this is mandatory for the continued ability for the drive to
+be useful, reliable, and tape-friendly instead of tape-killing.
+
+Specifically on the likes of the TD8E, making these changes is considered
+mandatory, since, unless the drive is quite new and not yet worn, the TD8E
+software-controlled tape controller will invariably fail.  There isn't much
+margin for error on the TD8E, since the software is just barely fast enough to
+keep up with the tape when all is well.  The effect of a badly maintained drive
+is that some words come too late and some too early.  The late ones aren't a
+problem, but the early ones come too quickly for the software to handle it;
+there just aren't enough machine cycles to keep up, etc.
+
+In fact, hooking the TU56 to a TD8E and running some tape reliability programs
+is a good way to determine if the drive is in good overall condition; poorly
+maintained systems will get numerous tape errors on the TD8E well before you can
+notice it on a TC01 or TC08, etc.
+
+In any case, the main reason to do all of this is to make the device work as
+intended, and that includes working with the now shrinking supply of media out
+there.
+
+Turning to a related topic:  Tape drive hubs.
+
+There are several generations of tape hubs.  The best overall results will
+probably come as a surprise to anyone who believes they know this seemingly
+simple tape subject.  I'll leave your shock and dismay until after first
+discussing DEC's offerings:
+
+The absolute original tape hubs are the best ones - the ones on the LINC/LINC-8
+drives.  They are essentially correctly designed Hartman hubs.  There is no
+replacement nor need to replace.  The only maintenance is to periodically remove
+the Hartman springs and remove the worn-out rubber bands and replace with new
+rubber bands.  Apply as many as it takes to give a nice firm-yet-gentle "snap"
+feel to mounting a reel, etc.  Failure to do so will yield slippage of the reel
+on the hub, especially if the reel comes from a TU55 system with the stock hubs,
+etc. [see below.]
+
+Then we come to the stock Hartman hubs of the TU55.  As manufactured, these are
+basically unusable.  Heavily used drives have many screwdriver or other
+implements-related gouges in the chassis front plate as frustrated users
+attempted to extricate their tapes from these horribly-designed hubs.  According
+to DEC, the best thing is to replace them with the TU56 "spider"hubs.  [See
+below for an opposing view.]
+
+On the TU56 that has NOT been deliberately mis-maintained by field service, one
+finds the so-called "spider" hubs made totally out of plastic.  They generally
+work fine, depending on a gradual plastic-on-plastic "grab" effect between the
+hub and tape reel.  This generally works fine, and additionally has the
+advantage of being quite accomodating to reels that were ruined by the stock
+Hartman hubs on the TU55, etc.
+
+However, a casual placement of the reel can lead to local disaster - a spinning
+tape can fall off the drive ruining the tape spilled all over the floor, etc.
+and likely getting totally ruined, etc.  Firmly shoving the tape onto the reel
+should prevent this, but certain reels need more firmness than others to prevent
+falling off; user beware!  Only Hartman hubs can lock a reel onto a hub, etc.
+
+One problem of the early production of spider hubs was the ill-advised design of
+placing the two metal set screws that hold the hub on placed 180 degrees apart. 
+This inevitably led to the spider hub falling off the shaft, or invariably the
+destruction of one of the drilled holes in the plastic hub being overstressed by
+overzealous field service monkeys attempting to make this not happen by
+overtightening the screws to the point of material failure [which is quite easy;
+this is a screw thredded into plastic!]
+
+A simple fix would have been to use a "loctite" compound to prevent screw
+loosening, but this was simply never widely done.  Even a damaged hub can be
+reconditioned if you are careful.
+
+This type of hub was replaced with a more sensible arrangement:  The holes are
+tapped 120 degrees apart.  Thus, the force to hold the hub on the shaft
+separates to one to align the hub on the D "flat" side of the shaft [which can
+be manufactured by filing the shaft in-place if necessary!] while the other one
+can get a good "bite" onto the unmodified circular surface 120 degrees apart.
+
+This arrangement invariably holds far better than the 180 degrees spacing of the
+former part, etc.
+
+Even broken hubs can be upgraded to the newer arrangement by merely tapping one
+[two if necessary!] replacement holes for the set-screws 120 degrees apart.
+
+[Note:  It is possible to fix the worst-case situation where two holes exist and
+are both ruined by over-tightening as long as you carefully place the new holes
+120 degrees apart and far enough away from the damaged originals, etc.]  And
+additionally, it is advised to use a loctite compound as well to avoid the hub
+falling off of the drive, etc.
+
+Unethical field service occasionally and unconscionally stuck obsolete TU55
+Hartman hubs on TU56 drives!  This represents the worst of all worlds since
+there is usually a plastic surface behind the tape hub which will instantly
+gouge on even a mild form of "tool" pressure attempting to remove the hub from
+these evil parts [see below for their redemption.]
+
+[Side note:  Extremely late production TU56 and TU56-H drives are actually a
+step backwards!  Admittedly, this is a sign that all of the relevant guide parts
+have been updated [assuming that field service didn't STEAL any of them!],
+except that the final mods are actually cheapening the drive for a misplaced
+notion of lowering production costs:  The actual change involves making the
+plastic panel of the drive, arguably one of its nicest cosmetic parts, a mere
+fraction of the normal size.  This leaves a large area of the front chassis
+plate "naked" except for a cheap coat of black paint over some quite rough metal
+that was never finished well enough to deserve being seen with only a coat of
+paint!  One minor "advantage" of the newest production, is that, should field
+service steal your good spider hubs and replace with TU55 unmodified Hartman
+hubs, at least you now have a metal finish to gouge while attempting to remove
+your tape reels!  And a good paint spray can cover those marks, etc.!]
+
+At this point, you smug old-timers are telling yourself that the best fix is
+obviously to just get the new-production TU56-style spider hubs with the
+120-degree set-screw spacing and be done with it.
+
+But you're all WRONG!
+
+There is a BETTER, albeit non-DEC, solution to the problem.  Use the original
+TU55 Hartman hub, but first MODIFY it!
+
+The problem pervasive to the entire tape drive design and production seems that
+DEC just didn't quite have its mechanical engineering up to speed, especially
+when it comes to specifying springs!  In this particular case, let's review the
+original Hartman hub on the LINC/LINC-8 drives, which are arguably the most
+elegant of all.
+
+LINC drive hubs need minor maintenance, the business about the shimming with
+rubber bands.  Otherwise, the hubs are elegant, gentle to use, harm neither tape
+reel, human, nor tape front chassis plate, and never have marks of "tools" being
+applied simply because the problem NEVER occurs.  These hubs err on the side of
+the tape falling off or at least slipping, NOT on the side of nearly impossible
+to remove the reels without "tools" etc.
+
+These nice hubs use extremely finely-wound long springs of a rather floppy
+nature.  They are so gentle, you can easily grab a spring and just take it off
+the hub with ease, etc. [So that you can then play with the rubber bands!]
+
+Compare this with the dreaded, unmodified TU55-type Hartman hubs. Putting on the
+tape, you can feel the tape being pulled out of your hand, and it won't give it
+back to you without a fight -- or a screwdriver!
+
+The elegant fix is to design a replacement spring essentially identical to the
+original LINC drive's spring [the same material, but perhaps a slightly
+different length?]
+
+It should be made to be slightly unable to fully grasp the reel properly as a
+matter of design.  This one then allow final tweaking with rubber bands as
+necessary to get the desired range of "grab" one desired.  Yes, this is a
+personal preference issue.  Those not faint of heart have been known to grab a
+reel on a TU55 and literally rip it off, occasionally actually damaging the reel
+in the process! [And then of course there are the habitual "tool" users!]
+
+Clearly, this is the extreme we need to avoid.  At the other end of the
+desirable spectrum, it is possible to create an idealized situation that
+essentially matches that of a well-maintained LINC drive.
+
+Unfortunately, a well-maintained LINC drive CANNOT hold many reels actually
+damaged by original TU55 Hartman hubs.  They simply cannot be used on a
+LINC/LINC-8; they will likely slip when the motors turn or even actually fall
+off the hub!
+
+For those who continue to use most of their damaged tape reels, this is not a
+viable solution.  However, for those who discard their most-damaged reels in
+favor of only undamaged or at most SLIGHTLY damaged reels, it is possible to
+adjust [via rubber bands] to a compromise [even on LINC drives!] where all of
+these undamaged and marginally damaged reels will work fine with the proper
+amount of rubber bands, albeit to requiring somewhat more force to remove the
+tape than could otherwise be achieved with a gentler adjustment [less rubber
+bands] but still well in the reasonable range.
+
+In any case, there is nother like the snap of a reliable Hartman hub, both when
+mounting the tape and reasonably unmounting the tape.  Spider hubs are just
+inferior to this, albeit adequate and having the side advantage of accomodating
+reels damaged by unmodified TU55 Hartman hubs, etc.
+
+Unless you have actually used LINC/LINC-8 drives [I own several such machines,
+some totally functional] you cannot have an informed opinion on this.  It simply
+didn't happen on DEC-designed drives.  [Note:  DEC did NOT design these drives. 
+They simply sourced the same drives for the LINC-8 from the vendor who made them
+for the LINC; they are totally compatible with each other and are NOT compatible
+with anything DEC used.  A side issue of their specs:  All of the drives use
+rubber sprocketed belts to rotate the hubs off of independent drive motors,
+while all DEC designs are direct-drive to much more powerful motors, which in
+the case of the TU55 actually use clutchs and brakes! Note: Software exists to
+unload the tape reels on either TU55 or TU56 systems, but then, if TU55,
+actually lock the brake stopping the flapping reels.  The TU56 uses a power
+amplifier to drive the motor and to electronically DC brake the drive, thus no
+mechanics to implement this more advanced form of direct-drive, etc., but the
+drive motors must spin down since they cannot actually lock.  The TU55, but not
+the TU56, supports an earlier spec of drive logic voltage swings, usually known
+as "relay logic" signals.  This is to allow possible compatibility with the
+older 55x series of drives when a TU55 is suitably modified with Wxxx buss
+conversion cards.  The TU56 only supports negative buss, such as is standard for
+TU55, positive buss such as is standard on the PDP-11, and a command cable, such
+as is used on the TD8E.  In the latter case, the G888 Manchester reader/writer
+cards are installed directly in the drive, as opposed to G882 [for TC01] or G888
+[for TC08] installed in the controller.  Note: There are a total of five such
+cards.  The LINC/LINC-8 drives are totally implemented with actual relays, and
+likely are at least similar to the so-called "relay logic" levels associated
+with the 55x drives DEC used later, etc.]
+
+As often things happen in life, ironically a lot of the remedies that apply to
+the TU5x drives involve UNDOING the consequences of half-baked notions, for
+which said consequences were not dealt with properly at the time.  In hindsight,
+the best solution would have been to have introduced far less change than was
+done; a lot of the misadventures associated with band-aiding the problem would
+have never happened.
+
+The best drives would be based on the TU55 motor, clutch, brake assembly, but
+with properly implemented Hartman hubs.  All of the other guide-related mods
+make sense, but took years of incremental and sometimes counter-intuitive
+measures to get finally properly implemented.
+
+Had all of this been done, the TU56 as we know it, simply would have never been
+implemented and the world would never had seen spider hubs.
+
+And one can ask the question:  Considering the gentle tape handling of the
+LINC-8 drives with their much simpler guide design, albeit slightly slower
+transfer rate, etc., was all of this speed improvement really worth it?
+
+Arguably no, considering all of the grief just to get the transfers 20 percent
+faster.  Direct drive is a good idea, but the beefing up is debatable
+considering all of the second-order problems, etc.  [Note:  A 20% slower TU56
+electronics would be a blessing for the TD8E!]  Better to just use gentler
+direct-drive motors, etc. and not to change the guide system at all!
+
+One more obscure point:  Due to overall size limitations, it is somewhat
+difficult to pack what you have in the TU55 into a dual drive. Compare that to
+the TU56-H situation which is really just a fully implemented TU56 with some of
+the parts removed [but most of the weight!].
+
+Yet, there actually is a quite rare beast.  While I do not know what a BE02 is
+[or even if it ever existed!], I have had contact with a BE01 and a BE03!
+
+A BE01 is a standard TC01 with several modifications [one real nasty!]. First of
+all, the rack mounting metalwork is sawed off, so it must be specially mounted
+in a mini-rack.  As a standard offering for some special custom product, it was
+essentially housed in an industrial-type case with a door.  However, since they
+didn't implement any form of see-through effect, the entire status light panel
+and associated lamp driver modules are removed.
+
+Additionally, the FORMAT switch [the one you have to throw to format DECtapes]
+is omitted.  If you implement the switch yourself [it merely involves grounding
+a format enable signal], it will NOT format tapes!
+
+The reason for this is the BE01 also deletes ONE MINOR SHORT JUMPER WIRE from
+the wrap which disables the ability for the switch to work even if added in! 
+[Note: Why bother changing the wrap wire-list?] After many hours of sleuthing,
+the ability to format using a miniature switch hung near the module chassis was
+restored.  [Note:  We also mounted the racks on a wooden base to allow removal
+from the somewhat revolting industrial-type case.  While not as strong, since
+there was no rack-mount "ears" to attach to, this was still adequate to allow
+functionality, although no easy way to properly mount into a standard DEC rack
+cabinet.  The only way would be to attempt to tap and drill holes in the ends of
+the sawed off rack chassis members to allow some add-on "ear"equivalents to be
+screwed on, etc., but we never went beyond the wooden mount, etc.]
+
+Now turning to the BE03.  This is actually a DUAL TU55 in the space a TU56 would
+take!  The chassis is REALLY tight with closely spaced parts!  All is what one
+would expect.  However, since this is a TU55-era device, the switches are all of
+the TU55 style, meaning they are rather large switches.  As such, much
+functionality was removed:
+
+1)  The drives are arbitrarily unit 0 on the left and unit 1 on the right, and
+fixed as such.  [Note:  A common user mod to a LINC/LINC-8 drive is to add a
+mini-toggle switch which implements the left 0, right 1 OR right 0, left 1
+possibilities.]  There are no unit select switches available on a standard BE03.
+Note:  There isn't really any viable space to considering doing even the LINC
+trick to reverse the drive selects!]
+
+2)  The drives do NOT implement write-protect.  [This is probably something that
+should be modified using mini-switches if possible!]
+
+Yet, all else is there, including the individual ability to manually move the
+tapes either direction.  Both drives will lock after proper UNLOAD software is
+executed, etc. [which, again, a TU56 cannot do!]. All of this fits in a standard
+rack size and requires 110v power in the same manner as a TU55 drive, etc.
+
+So, amazingly enough, all three eras of drives have a dual-drive model
+available!
+
+cjl (Mike Ross: Are you reading this?)
+
