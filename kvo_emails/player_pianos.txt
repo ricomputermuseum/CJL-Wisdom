@@ -1,0 +1,997 @@
+Subject: Player Pianos
+
+On Fri, Dec 2, 2016 at 11:32 AM, Kyle Owen <kylevowen@gmail.com> wrote:
+> Hi Charlie!
+
+Hi!  Before I start, have you been getting any recent e-mail from me, or is
+this a new address?  There are some issues [they can wait a bit] but just want
+to make sure you are getting them.  I heard you helped Bob out a few months
+ago, etc.
+
+> I'm quite impressed to hear you're also into these mechanical wonders! I've
+> not yet played a push-up pianola, nor have I seen one in person yet. 
+
+I lost a good friend less than three years ago.  He was pretty famous in the
+world of mechanical piano music Randolph Herr.  I can elaborate on that
+depending on what you already know [which could be nothing, you tell me].
+
+> I'm actively looking for an Ampico (preferably), Duo-Art or Welte-Mignon
+> reproducer, but it's slim pickings around my area, apparently.
+
+I can't say what became of his collection which is a damn shame.  [His family
+was all deceased except for a really shit of a brother who I can't stand, who
+actually threatened to sue me on a NOTION he thought he had as a total greedy
+ignoramus.]
+
+Randy was also into restoring old cash registers.  My former place where the
+PDP-8s were stored and rescued by Bob, John Wilson and Victor Nahigian was also
+a place where some of the instruments were delivered for a variety of reasons.
+Randy was the only person I know with a "heavier" hobby/business than dealing
+with computers in DEC cabinets!
+
+Thus, at times, I gave him permission to have delivered/stored transiently a
+whole parade of instruments in either the two-car garage or the ground-floor.
+[The place is on a hill, so rear delivery is off the street on a community
+driverway while front door delivery is ground level good for rolling
+instruments in and out.  Bob may have told you about the "path" some of the
+PDP-8's left the building, same for the various pianos.
+
+The only one that left was my own as a kid, a Kranich and Bach from the
+next-to-last year of production of good units, a console-height upright which
+is currently in a for sale/storage situation in Long Island at a dealer that
+Randy dealt with for some of the work.  They did the wood restoration where
+relevant and their movers moved everything wherever, etc.
+
+Randy would also use the garages for the "carcasses" of the cash registers, and
+in the end we had to get rid of about 400 pounds of worthless bases [all the
+important parts already stripped and gone] and none of the pianos or pump
+organs, etc.  But this greedy fool had to be told by a lawyer to butt out.
+It's a long forgotten issue, but in no way reflected on Randy; he had very
+little to do with his surviving brother.  [I heard other relatives were more
+reasonable, but this creep is now alone with his greed.]
+
+The centerpiece of Randy's collection was an 10' Steinway grand with the
+modifications by Aeolian to have a built-in pianola in it.  The two companies
+made exactly 12 of them in Queens not far from my former place.  This one had a
+history as well, search for Stanford White, an infamous NY-er involved in a
+love triangle with Harry K. Thaw and his wife.  It was a famous scandal from
+about 100 years ago, and Randy had totally restored it.
+
+I only played it as a piano in Randy's home [also in Queens, not far from the
+Sam Ashe store as explained below], but as a pianola, that device was on stage
+in Carnegie Hall with Randy playing some rolls as part of a performance by
+Michael Feinstein, a well-known Gershwin person as well.
+
+All of us were involved in the Gershwin project in various capacities.
+
+Back in the late 80's I had a girlfriend who was a piano teacher who used the
+ground floor [same building!] as a music studio.  I had bought her an upright
+MX-100B Yamaha Disklavier which is very useful for student use because of all
+the tricks [play only one hand while allowing the student to play the other not
+being auto-played at the time, a split point and a control determines if you
+want the left of the right, etc.
+
+In any case, she was registered with a local music store [everything is in
+Queens!] called Sam Ashe, and I had bought stuff there myself.  We knew some
+composer wannabes that hung around there, and as a result that gave us some
+minor favors for a few things.
+
+From that connection to Sam Ashe, there came a meeting of me and Randy and a
+famous musicologist named Artis Wodehouse [who was living in Randy's upstairs
+rooms he often rented out; she was in NY for months working on a project in
+nearby Brooklyn.  [She was originally from NY, specifically the Bronx, but was
+now in the LA area, but had to be in NY for some months, and Forest Hills is
+only a subway ride away from Brooklyn College].
+
+In Brooklyn College's music department, she was using a pianola pushed up to
+the same exact model Disklavier as we had, and was making diskettes of her
+attempts to get the proper expression playing rolls originally record by
+Gershwin of his own rolls recorded at Aeolian, etc.
+
+She had already had an NEA grant to study his music listening intently to film
+sound recordings of Gershwin made back in the day, and part of that was writing
+down precise detailed sheet music for these performances, etc.  She is
+considered THE Gershwin  expert, and got a grant for the express purpose of
+doing these diskettes; the grant was matched by Yamaha who had provided the
+MX-100B to Brooklyn College, etc.
+
+These "raw" recordings now had to be critiqued by her to find the best takes
+that truly represented just how Gershwin played these pieces according to his
+personal style as she could attest to, etc.
+
+There came to be a problem between Yamaha and Warner Brothers/Elektra/Nonesuch
+records.  They were in negotiations to produce the CD that became Gershwin
+Plays Gershwin, the Piano Rolls.
+
+But this was after Yamaha had commandeered the diskettes and Artis Wodehouse is
+computer-illiterate!
+
+If you ever want to screw up a deal between two big companies, all you need are
+lawyers on both sides!
+
+Years back, my friend Stan Rabinowitz [you may know the name from some work on
+OS/8] wrote a VAX-based excellent Scrabble program.  He wanted to have it given
+away free, but when they asked, the DEC lawyers insisted on checking for
+permission from Selchow and Righter, the owners of the board game.; of course
+they called the other company's lawyers, and long story short between both sets
+of lawyers it never happened!
+
+In this case, it was the lawyers of Warner Brothers and the lawyers of Yamaha
+couldn't figure out the relevant quick details and what follows is how I solved
+a problem they created:
+
+Artis did MOST of the work in Brooklyn College on a huge stack of diskettes in
+the proprietary Yamaha format, which is in the most simplified form is:
+
+PC format for a 720K 3.5" DD diskette with no common sector purpose, just the
+same raw format.
+
+The instrument supports a form of protection which is two-fold:  a)  The normal
+slider on the diskette to write-protect it, b) a copy protection which mangles
+the format on purpose.
+
+The copy protection and irrelevantly the possibility of 2:1 interleave is what
+distinguishes the protected disks from the typical ones.
+
+The 2:1 interleave is for the benefit of the prior MX-100A original model that
+had a slow CPU.  The MX100B and all newer models don't require it, but most
+models don't have the ability to convert the diskettes for the benefit of the
+original model, so this is for the most part an irrelevant detail.  [But my
+DCK10R grand Disklavier can reformat them to remove the interleave or actually
+put it in for the benefit of the A model].
+
+More importantly, there is a nasty difference:  In all cases, if a disk is
+protected, track 0 head 0, normally consisting of sectors 1 through 9 is not
+normal.  In one variant, sector 9 is just missing; I believe this is the one
+for the earlier model compatibility; newer diskettes have a faux sector 109
+header, but the effect is the same; you cannot copy the data!
+
+At the time, we had a nearby student who had purchases an MX100C which while
+newer is essentially a step backwards.  Volume is not actual electrical
+intensity of the electromagnets pulling down the keys, rather it is a
+mechanical kludge that prevents some of the hammer energy from being
+transferred to the strings with a blocking strip made with a rubber edge.  It
+sorta works, but not as well as the original on both the A and B models.  At
+the time, they also had a grand controller in a little "ottoman" that was
+attached to the piano by an umbilical cord,  but by the time they got to what I
+have [the DKC10R era a few years later, that's a 5' 3" baby grand and the
+controller is a smaller box that goes under the right-hand area where you sit;
+this is the way all newer grands are done; this one is screwed upwards into the
+bottom of the piano horizontal case.]
+
+The MX-100C controller was electronically a box that was placed on the top of
+the upright via a cable, and this was also what the spinette models that came
+out later used.  The A and B have the electronics in the top cover which
+partially interferes with opening the top cover, thus why they made it a lot
+smaller and also separate, etc.
+
+The MX-100C has the ability to copy cuts as opposed to the entire performances
+on the diskette; the earlier models could not do that.  But it was all for
+naught as these fools at Yamaha had modified Artis' disks without telling her!
+
+These disks all had labels slapped on them  Copyright Yamaha - not for release.
+That is simply not true, as the work done to create them was from an NEA grant.
+She could do whatever she wanted to with the diskettes, etc.  But they exceeded
+their authority and in the process prevented what was needed!
+
+In 48 hours [no sleep!] all of the following was done:
+
+3 pieces were finalized on our MX-100B; she is a perfectionist and created them
+there; we had the 1911 Aeolian pianola there that Randy had restored for her;
+they found it in Belgium in poor condition, and he had to do extensive
+restoration including overcoming incompetence:  The vacuum controllers are
+meant to be openable with felt gaskets that admittedly eventually leak [at
+about the same rate as the rubber tubing has to be replaced, about every
+decade].  These idiots EPOXIED the little boxes closed!  Thus, they could not
+be regulated.  Randy had to carefully break the glue seal and many of the boxes
+wound up with damage that had to be repaired, and quite a few of the covers had
+to be done over 100%.  And of course, fabricate all the felt gaskets.  [Note:
+Randy had his own pianola that was a work-in-progress and not done at the time;
+the one found in Europe was restored but due to the slight haste, it was never
+"perfect" and while playing it did have a very subtle "clack" that when I
+finally got to hear Randy's when it was finally just about done [it needed a
+polish job on the wood, comparable to piano finishing] it was much quieter; he
+said that with enough time, Artis' could be 100% restored, etc.  Note that
+during the recording, this is meaningless because the Disklavier is playing off
+the diskettes in their pro studio in Manhattan on a 12' concert grand in the
+sound-proof room, etc.]
+
+Thus, it was more than adequate to the task, and I got to see what Artis did
+for some of them to finish them off, but she had literally hundreds of "takes"
+on some rolls, in part because she had to become more skilled at the fine
+points of playing a pianola.  Randy taught her.  She and I are piano players,
+but a pianola is another thing altogether.  You get a  taste of that with the
+Story and Clark, etc.  But there are more dynamic variables with a pianola, and
+he modded them to include the extra slide expression control that was only
+"authentically" added to the Steinway/Aeolian dozen pianos.  It makes it even
+more complicated to play, but gets even better results.  Thus, only two
+pianolas to our knowledge ever had the extra control added [and the 12
+Steinways of course!]
+
+The rest of what Artis and I did was have her pick out the exact cuts on the
+piles of disks she wanted to be in the final CD.  That had to be done anyway,
+but in this case, the expediency was because Warner asked for two demo
+diskettes for a very important reason:
+
+1)  They wanted a diskette that would repeat in an infinite loop Swanee alone.
+That was easy to produce relatively speaking.  I also labeled the diskettes
+myself which involves using the pedals and the keyboard to setup characters you
+see on the LCD readout while the instrument was playing.  I was an expert
+because of our experience with ours; Artis only knew it could be done, but not
+how.
+
+2)  They wanted a 12-cut diskette of most of the material that did make it to
+the CD.  They told us which ones they wanted.
+
+3)  They didn't ask for this, but we also made a third diskette with other
+pieces some of which wound up on the CD, others would have been a volume II if
+it ever happened [it never did; Artis did a Jellyroll Morton disk instead]
+
+[Note:  Artis was so scared of those Yamaha idiots, she didn't want me to make
+copies of these diskettes, but I never told her I made BACKUP copies with
+Teledisk, the same program I make DECmate diskettes with.  It is savvy of
+format change, interleave, etc. and makes a perfect copy.]  [I of course have
+them for my own use.]  [It would be rather foolish if the diskettes got damaged
+when it was released!]
+
+The Disklavier, all models can make diskette copies [or format and copy or just
+format and erase the directory, it is a low-level format if relevant].  So,
+making copies in the field wasn't a problem, and many were made.
+
+The impetus of all of this was there was a music show that year in Vancouver,
+and they brought a Disklavier grand to the show and wanted the first two
+diskettes, and we had to have them in the local Queens Fedex office literally
+earlier enough for same-day delivery, and I did it! [no sleep, literally!].
+[Artis took a couple short naps.] [My girlfriend stayed away from us, realizing
+this was going to be at least an all-nighter, but it was a double all-nighter!]
+
+The late afternoon of the first day is when we went to the student's house and
+realized we were screwed because of the protection, but then I brainstormed a
+way to get this done!
+
+We bought [I paid] the MX-100B at a local piano dealer based in Long Island
+about 3 miles from where I live NOW with my wife called Frank and Camille's
+
+We had gone back to them and they were demoing some new equipment to augment
+the sound, what is known as the DOM-30 [Disklavier Orchestra Module] and I had
+read the manual when we at the dealer.  They were using it with custom
+Disklavier diskettes from Hal Leonard that are sold for the purpose.  Of course
+it uses external MIDI and runs off the Disklavier [note:  With a .5 second
+real-time buffer; you have to do that with a mechanical piano, not a synth!]
+And there are many of these diskettes [I collect them of course!]. Some of them
+are for alternate tone generator modules [TG-100, or Yamaha extended general
+MIDI; I now also have the former, and software for Windows to perform the
+latter to do Yamaha X-G.] [Note:  Today I own one of these!]
+
+There was also a subset of the DOM-30 known as the DRC-20 [Data Recorder
+Control].  It lacks the tone generator, thus it is not all that useful, but
+they thought it could sell as a MIDI recorder.
+
+We went back to Sam Ashe and asked our friend the manager.  I said I fully
+intend to very carefully open and repack and return, and he agreed, so we
+walked out of Sam Ashe with the DRC-20.
+
+Both of these units use a proprietary format unrelated, BUT they can READ-only
+the Disklavier format.  The DOM-30 can then play the MIDI from that source [or
+External Midi as used with a Disklavier] and then can output to its external
+MIDI what it reads on the Disklavier format input.
+
+Devoid of any media, it is just a very fast moving MIDI stream that certain
+instruments cannot keep up with.  However, hooked to the MIDI IN on the
+Disklavier [and then Recording] you can make the diskettes anyway one cut at a
+time.
+
+Thus, we built up the diskette one chosen cut at a time, and many hours later I
+had the desired final product including manual and pedal labeling for the
+benefit of the screen.
+
+Today I have software that can do this on a PC with 3.5" diskettes, but back in
+the day, this was the only way to get around the copy protection literally in
+just less than two days [on no sleep].
+
+With some difficulty, I even eventually got paid by Warner for my services, but
+the point is the show went very well, and helped sales, etc.  The CD became the
+then most popular non-pop CD.  1990 there wasn't all that much available yet,
+etc.
+
+Frank and Camille got involved with this as well:  They loaned out spinette
+Disklaviers all over Long Island primarily in Bank branches playing the second
+diskette.  I told them I created the diskettes; they were impressed!
+
+Still later, after this got going, we were all on Good Morning America [mostly
+Artis] but I was briefly seen on the World News Overnite expanded segment that
+shows some hours later; Randy got cut entirely.
+
+In both of them I had CLA Systems on TV and the name of the MIDISOFT corp
+program on the screen; this was my idea.  They overlay-ed the piano keys
+playing, the roll moving and the computer screen creating measures in real-time
+for potential recording and auto-moving over so the right-most part of the
+screen always had the latest measure as it was being played.  [This was in
+Windows 3.1.]
+
+I told MIDISOFT about this, their company got some nationwide free advertising,
+and for my efforts I got a NFR [Not for Resale] copy of their entire product
+line.  I already had their MIDI interface that attaches to
+SoundBlaster-compatible cards on the joystick controller, etc.
+
+So, that was a nice post-script to the story.  And Randy came over at times and
+we recorded rolls of him playing as well, and of course I have those as well.
+I have the only known copy in most cases.
+
+
+
+> I had picked my Story & Clark up in Roswell, GA, off Craigslist several years
+> ago and got it into mostly working condition in about two months. I think it
+> still needs some tweaks, but I'm pretty happy with it.
+
+I just wish Randy were available to help you; I guarantee he would, even if he
+had to drive south to look at it himself!
+
+> Maybe I'll save up my dollars and get a Banjo-Orchestra from Mr. Ramey. :)
+
+I know of those things as well; they show up in a few places.  Randy fixed up
+one of those for Steven Spielberg he has in his home.
+
+He also did things for collectors, such as authentic cross-restorations to
+change over Welte to Aeolian, etc. on pianos shipped to Queens from Europe.
+
+> What instruments do you have?
+
+I have the DCK10R on a 5'3" grand and an old Yamaha synth.  They also have an
+old Thinkpad 760EL with a P133 in it so that Teledisk works.
+
+All programs written in Turbo Pascal have a runtime bug that can SOMETIMES be
+fixed using the SLOWMO or other software programs to slow the machine down.
+Unfortunately, that technique doesn't work on Teledisk, so it forever must be
+run on a machine based on a Pentium 166 or slower.  Ideally I would like a
+770EL which I think is the same machine with a P166; I actually have two of
+them!  [I got one on ebay for $12, only thing wrong is the battery is dead but
+could be rebuilt.]
+
+The other one was given to me with a broken hard disk, originally 540 MB and
+sold with an optional upgrade to 1040 MB, but actually it can work either UP to
+or up to LESS than 4.8 GB, not sure [and worse, there are several models of 4.8
+GB, so it may really matter].  Newer 2.5" IDE disks use an extended interface
+so they don't quite work [I've tried].  But I got on ebay a new-in-box [NIB]
+3.2 GB disk and it works fine.
+
+I upgraded the 16 MB to the max which is 80 MB, and it runs Windows 98 SE lite
+with the "unofficial service pack" [I was involved with the 98lite project and
+the Service Pack project online on the PCforums of msfn.com.
+
+This machine has a P133, a removably 6x CD-ROM sharing a slot with either a
+second battery or a .3.5" diskette.  I have two batteries, but I don't have the
+blank front to in when the battery is in [totally cosmetic; I can use the
+diskette-in bezel].  I generally have the diskette in for use with Teledisk.
+
+The machine also has a second external diskette, so it is great for copying
+diskettes with Teledisk.  I also have a PCMCIA network card so it can plug into
+the local 8-port 10/100/1000 switch nearby.
+
+The second 760EL I got on ebay cost me $12 shipped in a nice carrying bag from
+Targus, another CD and another external diskette.  Only 32 MB, and it came with
+an add-on hard disk that is 2.2 GB, so it doesn't need anything;  This is my
+backup unit since both of them are capable of running Teledisk and the
+proprietary Yamaha software we bought from an ex-Yamaha employee that handles
+pretty much all of their formats including the DOM30/VRC-20 proprietary MIDI
+format and of course Disklavier format.  It won't copy whole Yamaha diskettes,
+but I talked to the author, it is also Turbo Pascal but has the rixed runtime
+so doesn't need to be slowed down, he is of course aware of the 1982 Teledisk
+that can copy, etc. but he did it Yamaha's way, etc. and we agrees that since I
+have both programs, I don't care that he didn't implement that.  [But you can
+copy cuts, which would have been good enough  back in the day; that doesn't
+check the overall disk protect, just the entire disk copy function.
+
+This machine and my Yamaha Synth are on a pro A-Frame stand from Quik-Lok with
+three positions for keyboards, but I only have one and I positioned another out
+of the way.  The top level has the 760EL ThinkPad on it.
+
+To the right of this is the Yamaha Grand Disklavier, and to the right of that
+is matching a faux Chinese lacquer old dining room table also finished in brass
+and plano black.  But on and under the table are three PCs, one I made years
+ago that has a 3.5/5.25 TEAC combo diskette on it.  I can run Teledisk on it by
+disabling both the L! and L2 cache.  It also runs Windows 98SE with the
+unofficial service pack and also Windows XP and is also on the network switch.
+
+Next to that [actually above] is one of my T400 laptops that I am doing a lot
+of editing on to finish the P?S Extended PDP-8 Simulator package on.  I can
+just about handle it with my tired MG eyes, but I have to be careful to not use
+the entire 1440x900 screen because it does cause some fatigue.  But for editing
+at 150x zoom on 12 pt text, it is very good especially late at night when I am
+even more tired.  Also on the network switch
+
+To its right is a "hot-rodded" DELL SFF Vostro 230 now with 4 GB and a 500 GB
+disk and 256 MB video card instead of the crappy built=in Intel "extreme"
+graphics chip.  It has a DVD-RW drive and is attached to a large screen Samsung
+monitor I really cannot do much with, but it gets a lot of usage from others
+"passing through".  I t has on it Windows XP, Windows 7 Ultimate and Windows 10
+Pro.  I also have the free upgrade to Windows 10 on the T400, but I removed it;
+can always add that on later when I get around to upgrading that machine to
+another 1.0 TB diskette.  That's the mobile version of the same chipset as in
+the Dell, but the Dell is marginally faster.  to the right of that, is a
+rollable TV cart that holds a lot of stuff in the base and on the top is my
+ThinkPad X32, the machine I take monthly for my IVIG treatments at the
+hospital.  This is a machine with 1024x768 and is a 12.9 " screen, and i can
+completely work with that.  In fact most of my work for years is on that
+machine because I have developed better than normal near vision, as long as I
+can take in the entire screen [and why I cannot use a wide-screen laptop
+universally].  That machine is a 2004 Thinkpad, literally the best machine ever
+made then, and upgraded to maximum CPU of 2.0 GHz with 2.0 MB cache and 2.0 GB
+memory and a 7200 RPM 100 GB HGST hard disk. [Only a few made are larger, but
+they are all 5400 RPM.]
+
+This machine is also home of a PCMCIA SATA card that connects to my little farm
+of disks:
+
+1)   I have 6 2.0 TB external hard disks in good cases and an external Sata
+Blu-Ray burner..  All of that connects to the base; the actual laptop pops out
+of the base [which also takes peripheral devices such as more batteries or an
+another hard disk or  CD/DVD burners, etc.]
+
+So, I get a lot of good usage of that machine, which is fast enough to keep up
+even today, etc.  [Just isn't 64 bits] this is also on the switch and was one
+of the first machines with 10/100/1000 base T networking.
+
+On the other side of the room is my wife Kathy's T400 which already has the 1
+TB disk and also was upgraded to the 3.06 GHz chip; I had to take it apart
+because the fan on the cooler was dying, so I bought a faster chip on ebay
+because I had to take it apart anyway, etc.  When i need to do this on mine, I
+will do the same CPU upgrade.  Hers has 8 GB and when I get around to it I will
+upgrade from 4 to 8 as well.]
+
+Her's is wireless, so not on the switch, but does a pretty good job.
+
+On the other end of the other side is my DECmate III which has had some issues,
+some of which we should  continue talking about.
+
+All of the machines on or near the switch are ultimately connected to an AC1200
+Wireless Ethernet bridge.
+
+Upstairs in :"the dungeon" is what we laughingly sometimes call "my room" which
+has in it another machine uses as a home server and the cable modem and the
+AC-1900 Netgear R6300 router.  I hope to reclaim the room at some point as we
+declutter the whole place, but it realistically is gonna be a long and drawn
+out thing, etc.
+
+We just got a speed upgrade on the cable modem.  Measured is above rated, which
+is generally the case with Cablevision.  Measured 115 MBPS in and 37 MB out.
+Nominal is 100 and 35.  I use GOTOMYPC and TeamViewer a lot [With Bob the
+latter, with clients the former].  and the extra bandwidth really makes it as
+if I was actually there!
+
+
+ 
+> And I'd love to hear of your times with the Gershwin Plays Gershwin album
+> sometime!
+
+Well, if you got rhis far, you just did!
+
+Anyway, I look forward to discussing other subjects when you get a chance.
+
+There are not too many of us who do computers AND music.  John Wilson plays the
+recorder and bagpipes and a restored harpsichord.
+
+cjl
+
+ps:  If you ever get a chance to come to NY, please do and we can put you up,
+etc.  We are a medium long single train ride to Penn station.   I may be able
+to get Victor and John to come here if so [always a good excuse for a
+gathering!].  Jack Rubin has also been hear, as well as Warren Stearnes; you
+should be talking to him about certain things regarding 12-bit machines.]  And
+you can see the collection which is about 15 minutes from here, available 24/7
+and has its own lighting and 100 amp service.  Bob may have explained about
+that to you, since he was one of the principals filling it!  [It's a converted
+ancient carriage house, now a 3-4 car multiple garage with a demised attempt at
+living quarters in it.]  As long as we don't make noise, we can literally go
+there anytime.
+
+
+
+> Thanks,
+> 
+> Kyle
+
+
+
+-- 
+"In the future, OS/2 will be on everyone's desktop"
+
+Bill Gates, 1992
+
+
+
+
+
+
+On Mon, Dec 5, 2016 at 5:07 PM, Kyle Owen <kylevowen@gmail.com> wrote:
+> Hey Charlie,
+
+Hey yourself :-) .
+ 
+> On Fri, Dec 2, 2016 at 11:36 PM, CLASystems <clasystems@gmail.com> wrote:
+>>
+>> Hi!  Before I start, have you been getting any recent e-mail from me, or is
+>> this a new address?  There are some issues [they can wait a bit] but just
+>> want to make sure you are getting them.  I heard you helped Bob out a few
+>> months ago, etc.
+>
+> Yessir, I've been receiving, but I've been a bit out of the loop on vintage
+> computers at the moment with the revived interest in my player piano. It
+> looks like we've got some changes to push to the repository. 
+
+OK, not a problem; timing is everything and that can wait.  I am nearly done
+debugging why it doesn't work on the PDP-12 and as of yesterday, it's now all
+working except the bootup; I suspect it may be just the lack of a power-clear.
+He didn't write a standalone program, he modified the OS/8 BOOT.PA program, and
+since this is for pre-8/E, no way to put in a CAF[6007] instruction.,
+
+However, the PDP-12 has a way to do a programmed power clear.  I have to figure
+out how to make it NOT execute if run on an -8.  It won't be hard, but I will
+do it if it turns out that's why it is booting. [It runs on his 8/E with a KL8
+interface, but this is actually a built-in on the PDP-12 chassis, not even on
+an external bus, similar to the way the 03/04 interface is implemented on the
+older machines as well, etc.
+
+And it may just all boil down to something like do a KCC but on the remote
+input from the server.  You'll have to look at what Bob Adamson did to the
+server.  I had to fix what he attempted on the OS/8 side.  Hopefully it will
+then be a simple generic so it works on all models without tricks.  [But since
+this is OS/8's BOOT.PA, there is room to make the code longer.  If you were
+toggling it in, you would manually power clear just before starting it.]
+
+Also, I assume this came from you:  You DO NOT Control-C check from within the
+SYSTEM handler.  It sets up an infinite loop!  [Non-system is optional of
+course.]
+ 
+> By the way, a quick note on that subject, it's actually quite possible to use
+> SimH to test SerialDisk
+
+How do you get the serial ports of the PC to work in SIMH?  I would like to
+know so I can run my Kermit-12 from there as well.
+
+
+ 
+> ; it'd be nice to come up with some unit tests and maybe even an automatic
+> installation script to build new OS/8 (or P?S/8) images with the SerialDisk
+> handlers installed.
+
+It's not an issue to have RK8E bootable images for the SIMH where non-system
+handlers are for the SerialDisk.
+
+I haven't heard about bugs in the newer releases of BUILD.
+
+
+ 
+> Optimally, I'd do it without BUILD.SV in hopes that even versions of OS/8
+> that have non-working or buggy BUILD.SVs can be used, just by knowing where
+> to stuff those words onto the disk. I don't think it would take much to
+> figure it out. 
+
+I wouldn't spend much time on that side topic.  With my input, the process
+seems to be working fine, but also remember that Dave Gesswein's DUMPREST
+program is in the overall loop.  I have to rewrite it because it is needlessly
+8K and there are 4K machines out there, such as at RICM.  The program is really
+simple, and there is some erroneous and extraneous dependency on OS/8 which
+doesn't really participate in the process in any constructive way.  I have
+extensive experience in real-time both on the lab-8/e and the -12.  Of course
+some of the code is killing a flea with a cannon :-) .
+ 
+>> I lost a good friend less than three years ago.  He was pretty famous in the
+>> world of mechanical piano music Randolph Herr.  I can elaborate on that
+>> depending on what you already know [which could be nothing, you tell me].
+>
+> Wow, I did not know the name, but after looking him up (and reading the
+> following), I am quite impressed. I would have definitely enjoyed meeting
+> him. 
+
+As I am certain he would have liked you.  He was a very friendly and helpful
+guy.  He also loved my wife's cooking.
+
+This is off-topic, but my wife loves to cook for as many people as possiblel;
+that's her thing.  We had three people die recently, and they all knew each
+other and more than once all three were here.
+
+Randy was the first to go, and he was getting better, but this is scary and
+impacts on her:
+
+I had pneumonia and almost died about 6-7 years ago from the complications of
+among other things pneumonia.  I only found out MUCH later that they were
+considering having me taken by ambulence to a better hospital, but long story
+short, I walked out of there 15 days later, 4 belt notches skinnier and that's
+26 pounds of pretty much edema.
+
+Well, because of his creep brother who happens to live not far from us, he
+served his own convenience and put Randy in the SAME hospital!  He had been
+getting better, but then caught pneumonia, and because it was "too
+inconvenient" to go to the good hospital he was in in Queens, he had him
+transferred TO the place they were considering having me TAKEN FROM!  And of
+course, it got worse, they decided to induce a coma and he died in the coma not
+recovered from pneumonia.
+
+So, you can understand the effect on her!
+
+The next one to go was my friend of over 40 years, who basically taught me to
+write.  Before that I was a more typical nerd type and you can really see the
+difference between the commenting in my source code from back then versus the
+NEW code written recently!
+
+He died of complications from a sarcoma of the leg. last March.
+
+Then about 4 months ago, our friend died of the complications of sepsis and
+gangrene because he was in a different hospital, and the root cause was
+diabetes and he was on dialysis.
+
+This has not been a good ":season" for her, and beyond that we are on overload
+[which does have the good effect of not dwelling on the rest!] [more below].
+ 
+>> I can't say what became of his collection which is a damn shame.  [His
+>> family was all deceased except for a really shit of a brother who I can't
+>> stand, who actually threatened to sue me on a NOTION he thought he had as a
+>> total greedy ignoramus.]
+>
+> That's a real shame for sure...I hate to hear that. 
+>
+>> The centerpiece of Randy's collection was an 10' Steinway grand with the
+>> modifications by Aeolian to have a built-in pianola in it.  The two
+>> companies made exactly 12 of them in Queens not far from my former place.
+>> This one had a history as well, search for Stanford White, an infamous NY-er
+>> involved in a love triangle with Harry K. Thaw and his wife.  It was a
+>> famous scandal from about 100 years ago, and Randy had totally restored it.
+>
+> Sounds like he was a big Duo-Art guy. I'm definitely keen on an Ampico or
+> Duo-Art, and personally, the 4-bit expression control on a Duo-Art seems
+> easier to follow than the Ampico stack, which may make it more appealing to
+> restore. 
+
+He could do whatever they wanted, but usually it was removing Welte and mostly
+Duo-Art but he did Ampico as well.
+
+The Pianola is unencoded in general but supports the little extra punch on the
+roll that is the mark of Duo-art.  [I forget the name for that which does a
+quick-strike].  He added a mod to ignore the upper and lower 4 notes; I don't
+have to explain to you why.
+
+
+
+>> So, that was a nice post-script to the story.  And Randy came over at times
+>> and we recorded rolls of him playing as well, and of course I have those as
+>> well.  I have the only known copy in most cases.
+>
+> Your story on the Gershwin project is absolutely wonderful! Thank you for
+> sharing. I'm thrilled to be talking to someone who was quite instrumental
+> (heh) in making that happen! 
+
+	groan!
+
+Worst case I can play them for you on the DOM-30 I own.  [see more below].
+ 
+>> I just wish Randy were available to help you; I guarantee he would, even if
+>> he had to drive south to look at it himself!
+>
+> Same here. I've been emailing a past AMICA president, I believe, Tim Baxter.
+> He's in Atlanta and has the capability of punching rolls, which I'm quite
+> fascinated by. I've ordered a couple of rolls from him and look forward to
+> trying them out. I hope to get involved in AMICA in the near future. 
+
+The place to be if you are serious!  Mention Randy there, probably will ring a
+bell to some.
+
+
+ 
+>> I know of those things as well; they show up in a few places.  Randy fixed
+>> up one of those for Steven Spielberg he has in his home.
+>>
+>> He also did things for collectors, such as authentic cross-restorations to
+>> change over Welte to Aeolian, etc. on pianos shipped to Queens from Europe.
+>
+> Wow, that's awesome! Who'd have guessed that Spielberg would have one?! 
+
+Randy didn't appreciate that he decorated the cabinet with logos of his movies,
+but otherwise it was fine [and he did get paid!].
+ 
+>> I have the DCK10R on a 5'3" grand and an old Yamaha synth.  They also have
+>> an old Thinkpad 760EL with a P133 in it so that Teledisk works.
+>
+> Quite the works! I'm thinking I may like to add some automatic capability to
+> my Hammond organ (it's an L-100 series; not particularly valuable), but am
+> thinking about first making a piano roll simulator that plugs on top of the
+> tracker bar. I don't think anyone's quite done that before, but I haven't
+> spent enough time looking to say. 
+
+I think you're right.  Only thing I ever hear about are MIDI-controlled
+simulating tone generators, not mods on the original.
+
+I haven't played one of those since the song 96 tears was popular!  [It's not a
+hard piece to play, but I was in a situation to be able to do so.
+
+I also have been to the Syracuse fairgrounds and played the theater organ.
+There is a slave 8' and 4' stop that indirectly makes a slave piano down on the
+stage play!
+
+You may hear about Dave Soerghel in the context of the LINC-8 modifications.
+He also restored player pianos and worked with the group that restored and
+maintained that huge theatre organ.
+
+I have in my time also worked on an electronic organ circuitry based on
+flip-flops to produce octaves of square-wave outputs applied to resistor
+networks to produce sawtooth waves, then the stops are post-switch filters.
+
+The "controller" is a prototype Iorio 4- bass accordion with a Centronics 50
+connector coming out of it with all the contact closures.  Gold-clad spring
+wires on all of the reeds on both sides, etc.  They connected by a big telco
+cable, etc.
+
+I had friends back in the 60's who were really good accordion players.  One of
+them has a movie credit.  He's "the accordion player" in the movie Finnegan's
+Wake.  [Look it up in IMDB.]   The flip-flops were Fairchild RTL chips in round
+8-pin plastic packages.  It is notable that DEC used the Motorola ones in DIP
+packages in the serial boards of the PT08.  [And the failure mode is the lands
+can't carry the current and tend to break the power or ground land UNDER one of
+the chips!]
+
+>> There are not too many of us who do computers AND music.  John Wilson plays
+>> the recorder and bagpipes and a restored harpsichord.
+>
+> You're right! I got started almost 20 years ago playing the accordion; I took
+> lessons for 11 years
+
+I never took lessons for that.  My friends showed me about the weird
+circle-of-fifths bass and the need to play with the bellows, but I picked it up
+pretty quickly.  BTW, one of these companies made a
+left-hand-same-as-right-hand accordion!
+ 
+> , then continued on my own after my teacher was not in too good of shape. She
+> passed away several years ago at the age of 88, but during her time, taught
+> nearly four generations of students. Quite impressive. 
+
+Mine died when I was in HS.  She had about three generations, but got sick in
+her 60's.  They tried to make me sing, but when my voice changed, forget it!
+But piano was good.  I did some of the nastier things like Liszt's Hungarian
+Rhapsody with the cross-over notes, etc.
+
+ 
+
+> I had always wanted a piano too, namely a player piano, but my parents
+> refused to let me have one. After moving out for college, I started seriously
+> looking. 
+
+Good for you.  That was never a problem for me growing up.  When I started as a
+little kid, we got for free an indestructible Hardman and Peck, then in 1956
+they bought me from a Manhattan dealer [I  remember pianos stretching in all
+directions!] a Kranich and Bach that it turned out went to making bad crap
+within two years of this one.  I had a string of tuners who were at first
+apprehensive but the comment was "this one has the good frets" so it was fine.
+I've since heard the newer ones never hold a tune because of the cheaper
+design.  It's still in the care of the guy a bit west of here that worked with
+Randy french polishing the wood for the units he restored the "innards" etc.
+Also, the creep brother tried to tell me that Rick Smith was a crook.  [He is
+not; he is a character, but not a crook.  I think he has a website; he's in
+Glen Cove which is west of here, but not quite as far west as Queens where
+Randy and I grew up.
+
+I've finally gotten used to being a "long lslander" but I got around back then
+because when my eyes worked, I drove EVERYWHERE.  In fact, when we met, I drove
+her from NY to St. Cloud in Fl in a total of 20 hours and that included a
+snowstorm in Va.  We had a great time for a bunch of reasons.
+
+1)  Her son was getting married to his second wife, and we were all in this
+ancient hotel in the "historical district".  We had both of the largest
+"suites" [they had the "honeymoon" and we had the "presidential"].  The place
+has a history, it is the frat house in the Adam Sandler movie The Water Boy.
+
+We primarily went to Universal and Disney, and it was the Y2K year, so there
+were special celebrations.
+
+But then we didn't leave:  This was planned out.  As a Benjamin Moore paint
+dealer, we were invited for three days at a Disney resort hotel [The Coronado]
+and a few more days passes and a trade show sponsored by Benjamin Moore and had
+the various paint-mixing machine company's latest stuff, and I had a bone or 50
+to pick with the software people, and I got to talk to an appropriate insider
+to air my various grievances to, and a lot got fixed, etc.  So, that was
+helpful.
+
+But what we didn't know is that Benjamin Moore also had something special
+planned.  We were all bussed that evening to the MGM studios for a special
+closed to the public event.  If you have ever been there, there are faux movie
+marquees.  All of them were welcoming us, and they had their "players" coming
+to cheer us getting off the busses as if we were heroes [they wanted my
+autograph, etc.]
+
+The place was about 60% open, all completely free including the ice cream
+vendors, eat what you want, and then they had a special barbeque meal setup,
+which was vaguely similar to what was done on New Year's Eve which by then was
+just under a week before!
+
+Then we drove back to NY, taking a bit more time.  Also, when we got to the
+hotel, we were the first to arrive [because we only had to drive 15 minutes]
+and the planes all came in later, thus we were "local" so to speak.
+
+btw, I have also been to Alachua, the home of one of Kathy's friends, which is
+40 miles west of Bob.  But that was a dfferent trip.  I've managed to aggregate
+about 1.5 years in Fl, because my parents retired to Deerfield Beach, etc. so I
+know my way around most of the state.
+
+Also, the year DECUS was held in NO, I drove there from NY in 28 hours with
+only three "input output" stops the entire trip.  Then I drove east through
+gulfport and in to the panhandle, so I was in Alabama briefly.  I saw lots of
+Spanish moss but I didn't stop because the Pearl River was reaching flood
+stage, and they said the roads were closed less than 8 hours after I was there;
+I saw the water level next to the road was VERY high, etc.
+
+Then I called my parents from Pensacola, and said "I'm in Florida" technically.
+It's almost a thousand miles from there to Deerfield Beach; I got there many
+hours later, and collapsed into bed, woke up late the next day and had missed
+their share of the same stom.  Then about a week later drove back to NY.
+
+On a totally different trip I drove from NY to St Louis to that DECUS show,
+then we went to Mexico [Juarez] then to Dunes and San Diego then North to SF
+and then east to Arizona carrying a TU56 and a TD8E card in the trunk the
+entire way, dropped that off and hooked it up to the guy's 8/E, and then went
+from Scottsdale, to Flagstaff, went to the Grand Canyon, then the north Rim of
+the Grand Canyon [over 200 more miles of driving to get to 1.1 miles away!] and
+then to the painted desert and the petrified forest, and then headed east to
+Champaign Illinois to see Ron Larkin who had been in NY but now out there with
+an 8/E in the forest studying bats.  Then we wound up in St Louis back
+literally from where we started from, then went back to NY.  Six weeks and over
+12,000 miles and wore out a set of tires.  So, you can see why having a disease
+that makes me not able to drive is really a frustrating problem.
+
+The doctors tell me the symptoms sometimes fade and also that having had one
+remission I am statistically more likely to get another remission.  I am still
+waiting for any statistics to catch up with reality.  But the good news is I am
+stable and it is not life-threatening, just life-altering in the eye-sight
+sense.   So, Kathy drives and I navigate.
+
+We do need to broach the subject of how to approach Lonnie regarding some of my
+machines.  I assume you might play a role in these restoration projects as
+well.
+
+I would think the best thing for him to do is pay me as a consultant at any
+pace he chooses.  i can do a lot between skype and phones and of course e-mail
+and even teamviewer where applicable.
+
+But as Bob says, you are the one that knows him best, so we leave it for you to
+suggest a what/when and where, etc.  Timing is wide open other than right now:
+[see more below].
+
+
+
+> Music and computers are quite a nice combination; I'm collecting LPs and
+> books on the subject, in fact. I've got both "Unplayed by Human Hands", which
+> as you are probably aware, is a collection of organ performances played by a
+> PDP-8. I also have the First Philadelphia Computer Music Festival LP, which
+> is not quite as well done, but has some interesting microcomputers playing
+> various songs in a wide range of quality (most fairly poor; some of the
+> arrangements have wrong notes or rhythms which detract from the 8-bit nature
+> of it even more). My latest find is a book, Music by Computers, which has 4
+> flexi discs with some very avant-garde tunes. That pretty much, in my
+> opinion, sums up the types of computer music: computers playing instruments,
+> computers generating traditional songs, and computers pushing the limits of
+> music to new levels not quite possible before. 
+
+Sounds good, but no, not crossed paths with any of that.  But I would take any
+.MP3 or FLAC copies of anything at least!
+
+ 
+
+>> ps:  If you ever get a chance to come to NY, please do and we can put you
+>> up, etc.  We are a medium long single train ride to Penn station.   I may be
+>> able to get Victor and John to come here if so [always a good excuse for a
+>> gathering!].  Jack Rubin has also been here, as well as Warren Stearnes; you
+>> should be talking to him about certain things regarding 12-bit machines.]
+>> And you can see the collection which is about 15 minutes from here,
+>> available 24/7 and has its own lighting and 100 amp service.  Bob may have
+>> explained about that to you, since he was one of the principals filling it!
+>> [It's a converted ancient carriage house, now a 3-4 car multiple garage with
+>> a demised attempt at living quarters in it.]  As long as we don't make
+>> noise, we can literally go there anytime.
+ 
+>
+> Yes, we should plan a 12-bit family reunion up there! I may have some time
+> this month to make that happen. That would be quite fun!
+
+All good except the timing!
+Right now this is a "war zone" or at least it resembles one.
+ 
+
+
+> I have family in Hoboken, so if rooms get tight, there's always that too.
+
+I'll keep that in mind, but I do know worst case, if you can sleep on the floor
+next to 6;7" John [who prefers it and comes prepared, he camps a lot] that
+would be the worst case.
+
+When Victor comes here, he has his fancy expense account stuff, and flies his
+plane to the nearby airport and stays at the Marriott Residence Inn that caters
+to pilots.  We pick him up from either which are two miles from here and go out
+to eat [always on him, it's his way].
+
+Jack is actually from Rochester, NY originally but is now in the Chicago area.
+But he has a sister in Manhattan who actually has a car!  In fact, it is used
+so little, we had to give him a jump start to drive it back.  Have you crossed
+paths with Jack?  He used to come here a lot more often, because he had
+offspring living in Brooklyn, but they moved somewhere else, so it's less
+often.
+
+He came here because he was specifically in NY for the funeral of Wes Clarke,
+the inventor of the LINC, so he came out afterwards, etc.  He says he should
+get to us about once or twice a year.  He MUST have NY pastrami on rye!  [I can
+relate.]
+
+John is a 4 hour drive away in the hills of Ma.  His schedule is fairly tight
+punctuated by longer periods of easy availability.  His "complication" is he
+has a new girlfriend for now just over a year.  She is about two hours away in
+NH; we have similar driving aspirations, but he can still see enough to do it
+at all.  Timing for him not setup in advance is probably 30/70 against,
+especially this time of year.
+
+now to our problems:
+
+My wife's business partner has been living with us in the "attic" level for
+well over three years now.  He's gong through a VERY bad divorce [no children
+at least!] with his two ferrets.  We have 2.5 bathrooms so it's now a problem.
+There is in theory an end in sight finally, but we have no idea what is going
+to happen and we of course cannot push him at this stage as his various legal
+battles are hopefully close to over, etc.
+
+But we have another "layer".  He is a paint contractor and there are all sorts
+of related things all over the place because he is doing renovations of one of
+the bathrooms and the spiral staircase that goes up two flights to where he is,
+while we have the master bedroom on the second floor, and in the back is what
+we laughingly refer to as "my room" which is beyond overflow; I can't even get
+in the room [but he can, he's very skinny].
+
+The other slightly smaller room is Kathy's and that's where we put people up
+temporarily.  But there are boxes of anything and everything everywhere!
+
+What is motivating all of this is we have to have an appraisal so we can get a
+refinance;  we have a loan that has been interest-only for ten years and is now
+turning into a fixed ten year note but the interest rate is way too high, so we
+are negotiating with both the main mortgage holder and the second lien holder
+to see who can give us the better deal, etc.  Either way, someone has to come
+and appraise it, so we have to get this done.  The drop dead date is Feb 6, but
+this time of year, all such things crawl, so unless they can get this all done
+now, it will cascade over until new years, and we better have an appraisal done
+before that so January is just closing stuff with the amount determined, etc.
+
+So, this is not a good time for anything, meals are rushed, lots of trips to
+various stores, Kathy picking out stuff, colors, etc. and her room is on
+overload with some stuff that would make more sense elsewhere were it not
+instead overloaded with tools for awhile, etc.
+
+Thus, this all has to be planned for after all this maelstrom of confusion,
+etc.
+
+to make matters worse, we need to spend serious money repairing the Disklavier.
+There was a SERIOUSLY bad winter and there are broken strings.  I heard them
+happen!  [It's like a gun going off.]
+
+I'm hoping it's just a matter of restringing the treble side, in which case it
+could be as little as two notes since they have multiple strings.  Beyond the
+expense, the rest are likely to have to be loosened, and then the repair and
+then slowly retuning it gradually until it can hold, etc.  It can take months
+I've been told.
+
+So, we have to save our pennies once the re-fi is in effect, but after a couple
+of months, that itself should no longer be a problem.  Monthly payment should
+actually DROP.
+
+We may eventually move with so many people we knew here no longer alive.  But
+clearly we have a couple of years of "overhead" to get past, including
+finalizing my installment sale on the former Queens building, and when she and
+her partner sell the building [perhaps to one of the tenants].  Then our
+financial problems will be gone.
+
+And of course, this sort of defines the time-frame, if not the exact
+disposition of the larger DEC systems.  I really cannot maintain anything
+larger than a DECmate or two or three realistically.  But the collection is
+about 10 minutes from here in the carriage house as I described, etc.
+
+This is not the norm here, I hope you understand.  And when it is over, has to
+be in the later winter into early spring by definition, things will start
+returning to the less chaotic semi-norm that has been the way for 4 years now,
+etc.
+
+Life here is at least "interesting" most of the time :-).
+
+cjl 
